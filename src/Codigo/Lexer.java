@@ -553,7 +553,7 @@ class Lexer {
           }
         case 14: break;
         case 10: 
-          { lexeme=yytext(); return Reservadas;
+          { lexeme=yytext(); return Reservada;
           }
         case 15: break;
         case 9: 

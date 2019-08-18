@@ -130,8 +130,8 @@ public class Gui_Lexer extends javax.swing.JFrame {
                         resultado += "Simbolo no definido\n";
                         break;
                     
-                    case Identificador: case Numero: case Reservadas:
-                        resultado += lexer.lexeme + ": Es un "+token+ "\n";
+                    case Identificador: case Numero: case Reservada:
+                        resultado += lexer.lexeme + ": Es una "+token+ "\n";
                      default:
                          resultado += "Token: "+token +"\n";
                         break;

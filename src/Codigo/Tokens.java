@@ -10,7 +10,7 @@ package Codigo;
  * @author owner
  */
 public enum Tokens {
-    Reservadas,
+    Reservada,
     Igual,
     Suma,
     Resta,
